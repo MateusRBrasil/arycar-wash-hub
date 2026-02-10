@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { LayoutDashboard, PlusCircle, Users, Wrench, LogOut, Car } from 'lucide-react';
+import { LayoutDashboard, PlusCircle, Users, Wrench, LogOut } from 'lucide-react';
+import arycarLogo from '@/assets/arycar-logo.png';
 import { useAuth } from '@/contexts/AuthContext';
 import { cn } from '@/lib/utils';
 import { Button } from '@/components/ui/button';
