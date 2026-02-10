@@ -63,8 +63,7 @@ export function AppLayout({ children }: { children: React.ReactNode }) {
       <div className="flex flex-col flex-1">
         <header className="flex md:hidden items-center justify-between border-b bg-[hsl(var(--sidebar-background))] px-4 py-3">
           <div className="flex items-center gap-2">
-            <Car className="h-5 w-5 text-[hsl(var(--sidebar-primary))]" />
-            <span className="font-bold text-[hsl(var(--sidebar-primary-foreground))]">ARYCAR</span>
+            <img src={arycarLogo} alt="ARYCAR" className="h-6 w-auto" />
           </div>
           <div className="flex gap-1">
             {navItems.filter((n) => !n.disabled).map((item) => (
