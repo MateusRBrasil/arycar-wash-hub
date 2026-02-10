@@ -33,8 +33,8 @@ export default function LoginPage() {
     <div className="flex min-h-screen items-center justify-center bg-muted p-4">
       <Card className="w-full max-w-md">
         <CardHeader className="text-center">
-          <div className="mx-auto mb-4 flex h-14 w-14 items-center justify-center rounded-full bg-primary">
-            <Car className="h-7 w-7 text-primary-foreground" />
+          <div className="mx-auto mb-4">
+            <img src={arycarLogo} alt="ARYCAR" className="h-16 w-auto mx-auto" />
           </div>
           <CardTitle className="text-2xl">ARYCAR</CardTitle>
           <CardDescription>Sistema de Lava-Rápido</CardDescription>
